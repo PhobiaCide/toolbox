@@ -13,6 +13,8 @@ Welcome to the JavaScript Essential Tools repository! This collection of JavaScr
 
 ### debounce
 
+![Alt text](./snapshots/debounce.png "a title")
+
 Creates a debounced version of a function that waits for a specified delay after the last invocation before executing.
 
 ### throttle
