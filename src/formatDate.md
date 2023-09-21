@@ -4,6 +4,10 @@
 
 Formats a Date object into a string based on the specified format.
 
+### At A Glance
+
+![A screenshot of the titular code snippet](../snapshots/formatDate.png)
+
 ### Code
 
 ```js

@@ -4,6 +4,10 @@
 
 Converts the first character of a string to uppercase.
 
+### At A Glance
+
+![A screenshot of the titular code snippet](../snapshots/capitalize.png)
+
 ### Code
 
 ```js

@@ -25,6 +25,10 @@ Throttling is suitable for scenarios where you want to limit how often a functio
 - Updating or animating elements on the page when the user scrolls, resizes, or moves the mouse
 - Logging or tracking user actions or events when they occur frequently
 
+### At A Glance
+
+![A screenshot of the titular code snippet](../snapshots/throttle.png)
+
 ### Code
 
 ```js

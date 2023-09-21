@@ -4,6 +4,10 @@
 
 Shuffles the elements of an array randomly.
 
+### At A Glance
+
+![A screenshot of the titular code snippet](../snapshots/shuffleArray.png)
+
 ### Code
 
 ```js

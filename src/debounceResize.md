@@ -18,6 +18,10 @@ const debounce = (funct, delay) => {
 };
 ```
 
+### At A Glance
+
+![A screenshot of the titular code snippet](../snapshots/debounceResize.png)
+
 ### Code
 
 ```js

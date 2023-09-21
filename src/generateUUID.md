@@ -4,6 +4,10 @@
 
 Generates a universally unique identifier (UUID).
 
+### At A Glance
+
+![A screenshot of the titular code snippet](../snapshots/generateUUID.png)
+
 ### Code
 
 ```js

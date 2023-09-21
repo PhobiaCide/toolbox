@@ -4,7 +4,9 @@
 
 Calculates the age based on a given birth date.
 
-!["A screenshot of the titular code snippet"](../snapshots/calculateAge.png)
+### At A Glance
+
+![A screenshot of the titular code snippet](../snapshots/calculateAge.png)
 
 ### Code
 

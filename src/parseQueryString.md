@@ -4,6 +4,10 @@
 
 Parses the query string parameters from a URL and returns them as an object."
 
+### At A Glance
+
+![A screenshot of the titular code snippet](../snapshots/parseQueryString.png)
+
 ### Code
 
 ```js

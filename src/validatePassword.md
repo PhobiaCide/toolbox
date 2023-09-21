@@ -4,6 +4,10 @@
 
 Validates if a password meets common security criteria.
 
+### At A Glance
+
+![A screenshot of the titular code snippet](../snapshots/validatePassword.png)
+
 ### Code
 
 ```js

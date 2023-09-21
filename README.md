@@ -11,93 +11,91 @@ Welcome to the JavaScript Essential Tools repository! This collection of JavaScr
 
 ## Tools Included
 
-### debounce
-
-![Alt text](./snapshots/debounce.png "a title")
+### [debounce](./src/debounce.md)
 
 Creates a debounced version of a function that waits for a specified delay after the last invocation before executing.
 
-### throttle
+### [throttle](./src/throttle.md)
 
 Creates a throttled version of a function that limits the rate of execution to a specified interval.
 
-### deepClone
+### [deepClone](./src/deepClone.md)
 
 Creates a deep copy of an object, including nested objects and arrays.
 
-### capitalize
+### [capitalize](./src/capitalize.md)
 
 Converts the first character of a string to uppercase.
 
-### formatDate
+### [formatDate](./src/formatDate.md)
 
 Formats a Date object into a string based on the specified format.
 
-### shuffleArray
+### [shuffleArray](./src/shuffleArray.md)
 
 Shuffles the elements of an array randomly.
 
-### groupBy
+### [groupBy](./src/groupBy.md)
 
 Groups an array of objects by a specified key, creating an object with grouped arrays as values.
 
-### flattenArray
+### [flattenArray](./src/flattenArray.md)
 
 Flattens a nested array into a single-level array.
 
-### isEmpty
+### [isEmpty](./src/isEmpty.md)
 
 Checks if an object or array is empty.
 
-### parseQueryString
+### [parseQueryString](./src/parseQueryString.md)
 
 Parses the query string parameters from a URL and returns them as an object.
 
-### sortByKey
+### [sortByKey](./src/sortByKey.md)
 
 Sorts an array of objects based on the values of a specified key.
 
-### calculateAge
+### [calculateAge](./src/calculateAge.md)
 
 Calculates the age based on a given birth date.
 
-### isPalindrome
+### [isPalindrome](./src/isPalindrome.md)
 
 Checks if a string is a palindrome.
 
-### validateEmail
+### [validateEmail](./src/validateEmail.md)
 
 Validates if a given string is a valid email address.
 
-### localStorageUtil
+### [localStorageUtil](./src/localStorageUtil.md)
 
 An object containing utility functions to simplify interactions with the browser's localStorage.
 
-### fetchJson
+### [fetchJson](./src/fetchJson.md)
 
 Fetches JSON data from a URL and handles common error cases.
 
-### debounceResize
+### [debounceResize](./src/debounceResize.md)
 
 Calls a function when the window resize event stops, preventing rapid multiple invocations.
 
-### generateUUID
+### [generateUUID](./src/generateUUID.md)
 
 Generates a universally unique identifier (UUID).
 
-### truncateText
+### [truncateString](./src/truncateString.md)
 
 Truncates a string to a specified maximum length and adds ellipses if necessary.
 
-### validatePassword
+### [validatePassword](./src/validatePassword.md)
 
 Validates if a password meets common security criteria.
 
-### getRandomNumber
+### [getRandomNumber](./src/getRandomNumber.md)
 
 Generates a random integer between a specified minimum and maximum value.
 
-### countWords
+### [countWords](./src/countWords.md)
 
 Counts the number of words in a given string.
 

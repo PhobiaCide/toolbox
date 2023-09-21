@@ -4,6 +4,10 @@
 
 Groups an array of objects by a specified key, creating an object with grouped arrays as values.
 
+### At A Glance
+
+![A screenshot of the titular code snippet](../snapshots/groupByKey.png)
+
 ### Code
 
 ```js

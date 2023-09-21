@@ -4,6 +4,10 @@
 
 Sorts an array of objects based on the values of a specified key.
 
+### At A Glance
+
+![A screenshot of the titular code snippet](../snapshots/sortByKey.png)
+
 ### Code
 
 ```js

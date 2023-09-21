@@ -14,6 +14,10 @@ For example, imagine we have a search box that shows suggestions as the user typ
 
 There are different ways to implement debouncing in JavaScript, but one common approach is to use a wrapper function that returns a new function that delays the execution of the original function. The wrapper function also keeps track of a timer variable that is used to clear or reset the delay whenever the new function is called.
 
+### At A Glance
+
+![A screenshot of the titular code snippet](../snapshots/debounce.png)
+
 #### Code
 
 ```js
