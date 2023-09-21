@@ -1,12 +1,3 @@
-# `calculateAge()`
-
-## Overview
-
-Calculates the age based on a given birth date.
-
-### Code
-
-```js
 const calculateAge = (birthDate) => {
   const currentDate = new Date();
   const yearDifference = currentDate.getFullYear() - birthDate.getFullYear();
@@ -17,4 +8,3 @@ const calculateAge = (birthDate) => {
     ? yearDifference - 1
     : yearDifference;
 };
-```
