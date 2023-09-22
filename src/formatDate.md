@@ -11,7 +11,7 @@ Formats a Date object into a string based on the specified format.
 ### Code
 
 ```js
-function formatDate(date, format) {
+const formatDate = (date, format) => {
   let day = date.getDate();
   let month = date.getMonth() + 1;
   let year = date.getFullYear();
