@@ -11,7 +11,6 @@ Welcome to the JavaScript Essential Tools repository! This collection of JavaScr
   - [Contributing](#contributing)
   - [License](#license)
 
-
 ## Tools Included
 
 Click any of the snippet names below to be directed to detailed documentation for that snippet.
