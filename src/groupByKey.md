@@ -11,8 +11,7 @@ Groups an array of objects by a specified key, creating an object with grouped a
 ### Code
 
 ```js
-function groupByKey(array, key) {
-  return array.reduce((result, obj) => {
+const groupByKey = (array, key) =>array.reduce((result, obj) => {
     const value = obj[key];
     if (!result[value]) {
       result[value] = [];
@@ -20,5 +19,4 @@ function groupByKey(array, key) {
     result[value].push(obj);
     return result;
   }, {});
-}
 ```
