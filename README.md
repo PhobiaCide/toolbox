@@ -11,95 +11,96 @@ Welcome to the JavaScript Essential Tools repository! This collection of JavaScr
   - [Contributing](#contributing)
   - [License](#license)
 
+
 ## Tools Included
 
 Click any of the snippet names below to be directed to detailed documentation for that snippet.
 
-- ### [debounce](./src/debounce.md)
+- ### [`debounce()`](./src/debounce.md)
 
   Creates a debounced version of a function that waits for a specified delay after the last invocation before executing.
 
-- ### [throttle](./src/throttle.md)
+- ### [`throttle()`](./src/throttle.md)
 
   Creates a throttled version of a function that limits the rate of execution to a specified interval.
 
-- ### [deepClone](./src/deepClone.md)
+- ### [`deepClone()`](./src/deepClone.md)
 
   Creates a deep copy of an object, including nested objects and arrays.
 
-- ### [capitalize](./src/capitalize.md)
+- ### [`capitalize()`](./src/capitalize.md)
 
   Converts the first character of a string to uppercase.
 
-- ### [formatDate](./src/formatDate.md)
+- ### [`formatDate()`](./src/formatDate.md)
 
   Formats a Date object into a string based on the specified format.
 
-- ### [shuffleArray](./src/shuffleArray.md)
+- ### [`shuffleArray()`](./src/shuffleArray.md)
 
   Shuffles the elements of an array randomly.
 
-- ### [groupBy](./src/groupBy.md)
+- ### [`groupBy()`](./src/groupBy.md)
 
   Groups an array of objects by a specified key, creating an object with grouped arrays as values.
 
-- ### [flattenArray](./src/flattenArray.md)
+- ### [`flattenArray()`](./src/flattenArray.md)
 
   Flattens a nested array into a single-level array.
 
-- ### [isEmpty](./src/isEmpty.md)
+- ### [`isEmpty()`](./src/isEmpty.md)
 
   Checks if an object or array is empty.
 
-- ### [parseQueryString](./src/parseQueryString.md)
+- ### [`parseQueryString()`](./src/parseQueryString.md)
 
   Parses the query string parameters from a URL and returns them as an object.
 
-- ### [sortByKey](./src/sortByKey.md)
+- ### [`sortByKey()`](./src/sortByKey.md)
 
   Sorts an array of objects based on the values of a specified key.
 
-- ### [calculateAge](./src/calculateAge.md)
+- ### [`calculateAge()`](./src/calculateAge.md)
 
   Calculates the age based on a given birth date.
 
-- ### [isPalindrome](./src/isPalindrome.md)
+- ### [`isPalindrome()`](./src/isPalindrome.md)
 
   Checks if a string is a palindrome.
 
-- ### [validateEmail](./src/validateEmail.md)
+- ### [`validateEmail()`](./src/validateEmail.md)
 
   Validates if a given string is a valid email address.
 
-- ### [localStorageUtil](./src/localStorageUtil.md)
+- ### [`localStorageUtil()`](./src/localStorageUtil.md)
 
   An object containing utility functions to simplify interactions with the browser's localStorage.
 
-- ### [fetchJson](./src/fetchJson.md)
+- ### [`fetchJson()`](./src/fetchJson.md)
 
   Fetches JSON data from a URL and handles common error cases.
 
-- ### [debounceResize](./src/debounceResize.md)
+- ### [`debounceResize()`](./src/debounceResize.md)
 
   Calls a function when the window resize event stops, preventing rapid multiple invocations.
 
-- ### [generateUUID](./src/generateUUID.md)
+- ### [`generateUUID()`](./src/generateUUID.md)
 
   Generates a universally unique identifier (UUID).
 
-- ### [truncateString](./src/truncateString.md)
+- ### [`truncateString()`](./src/truncateString.md)
 
   Truncates a string to a specified maximum length and adds ellipses if necessary.
 
-- ### [validatePassword](./src/validatePassword.md)
+- ### [`validatePassword()`](./src/validatePassword.md)
 
   Validates if a password meets common security criteria.
 
-- ### [getRandomNumber](./src/getRandomNumber.md)
+- ### [`getRandomNumber()`](./src/getRandomNumber.md)
 
   Generates a random integer between a specified minimum and maximum value.
 
-- ### [countWords](./src/countWords.md)
+- ### [`countWords()`](./src/countWords.md)
 
   Counts the number of words in a given string.
 
