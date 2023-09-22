@@ -26,7 +26,7 @@ const debounce = (mainFunction, delay) => {
   let timer;
 
   // Return an anonymous function that takes in any number of arguments
-  return function (...args) {
+  return (...args) => {
     // Clear the previous timer to prevent the execution of 'mainFunction'
     clearTimeout(timer);
 
