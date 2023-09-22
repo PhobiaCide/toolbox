@@ -4,108 +4,112 @@ Welcome to the JavaScript Essential Tools repository! This collection of JavaScr
 
 ## Table of Contents
 
-- [Tools Included](#tools-included)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [JavaScript Essential Tools](#javascript-essential-tools)
+  - [Table of Contents](#table-of-contents)
+  - [Tools Included](#tools-included)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Tools Included
 
-### [debounce](./src/debounce.md)
+Click any of the snippet names below to be directed to detailed documentation for that snippet.
 
-Creates a debounced version of a function that waits for a specified delay after the last invocation before executing.
+- ### [debounce](./src/debounce.md)
 
-### [throttle](./src/throttle.md)
+  Creates a debounced version of a function that waits for a specified delay after the last invocation before executing.
 
-Creates a throttled version of a function that limits the rate of execution to a specified interval.
+- ### [throttle](./src/throttle.md)
 
-### [deepClone](./src/deepClone.md)
+  Creates a throttled version of a function that limits the rate of execution to a specified interval.
 
-Creates a deep copy of an object, including nested objects and arrays.
+- ### [deepClone](./src/deepClone.md)
 
-### [capitalize](./src/capitalize.md)
+  Creates a deep copy of an object, including nested objects and arrays.
 
-Converts the first character of a string to uppercase.
+- ### [capitalize](./src/capitalize.md)
 
-### [formatDate](./src/formatDate.md)
+  Converts the first character of a string to uppercase.
 
-Formats a Date object into a string based on the specified format.
+- ### [formatDate](./src/formatDate.md)
 
-### [shuffleArray](./src/shuffleArray.md)
+  Formats a Date object into a string based on the specified format.
 
-Shuffles the elements of an array randomly.
+- ### [shuffleArray](./src/shuffleArray.md)
 
-### [groupBy](./src/groupBy.md)
+  Shuffles the elements of an array randomly.
 
-Groups an array of objects by a specified key, creating an object with grouped arrays as values.
+- ### [groupBy](./src/groupBy.md)
 
-### [flattenArray](./src/flattenArray.md)
+  Groups an array of objects by a specified key, creating an object with grouped arrays as values.
 
-Flattens a nested array into a single-level array.
+- ### [flattenArray](./src/flattenArray.md)
 
-### [isEmpty](./src/isEmpty.md)
+  Flattens a nested array into a single-level array.
 
-Checks if an object or array is empty.
+- ### [isEmpty](./src/isEmpty.md)
 
-### [parseQueryString](./src/parseQueryString.md)
+  Checks if an object or array is empty.
 
-Parses the query string parameters from a URL and returns them as an object.
+- ### [parseQueryString](./src/parseQueryString.md)
 
-### [sortByKey](./src/sortByKey.md)
+  Parses the query string parameters from a URL and returns them as an object.
 
-Sorts an array of objects based on the values of a specified key.
+- ### [sortByKey](./src/sortByKey.md)
 
-### [calculateAge](./src/calculateAge.md)
+  Sorts an array of objects based on the values of a specified key.
 
-Calculates the age based on a given birth date.
+- ### [calculateAge](./src/calculateAge.md)
 
-### [isPalindrome](./src/isPalindrome.md)
+  Calculates the age based on a given birth date.
 
-Checks if a string is a palindrome.
+- ### [isPalindrome](./src/isPalindrome.md)
 
-### [validateEmail](./src/validateEmail.md)
+  Checks if a string is a palindrome.
 
-Validates if a given string is a valid email address.
+- ### [validateEmail](./src/validateEmail.md)
 
-### [localStorageUtil](./src/localStorageUtil.md)
+  Validates if a given string is a valid email address.
 
-An object containing utility functions to simplify interactions with the browser's localStorage.
+- ### [localStorageUtil](./src/localStorageUtil.md)
 
-### [fetchJson](./src/fetchJson.md)
+  An object containing utility functions to simplify interactions with the browser's localStorage.
 
-Fetches JSON data from a URL and handles common error cases.
+- ### [fetchJson](./src/fetchJson.md)
 
-### [debounceResize](./src/debounceResize.md)
+  Fetches JSON data from a URL and handles common error cases.
 
-Calls a function when the window resize event stops, preventing rapid multiple invocations.
+- ### [debounceResize](./src/debounceResize.md)
 
-### [generateUUID](./src/generateUUID.md)
+  Calls a function when the window resize event stops, preventing rapid multiple invocations.
 
-Generates a universally unique identifier (UUID).
+- ### [generateUUID](./src/generateUUID.md)
 
-### [truncateString](./src/truncateString.md)
+  Generates a universally unique identifier (UUID).
 
-Truncates a string to a specified maximum length and adds ellipses if necessary.
+- ### [truncateString](./src/truncateString.md)
 
-### [validatePassword](./src/validatePassword.md)
+  Truncates a string to a specified maximum length and adds ellipses if necessary.
 
-Validates if a password meets common security criteria.
+- ### [validatePassword](./src/validatePassword.md)
 
-### [getRandomNumber](./src/getRandomNumber.md)
+  Validates if a password meets common security criteria.
 
-Generates a random integer between a specified minimum and maximum value.
+- ### [getRandomNumber](./src/getRandomNumber.md)
 
-### [countWords](./src/countWords.md)
+  Generates a random integer between a specified minimum and maximum value.
 
-Counts the number of words in a given string.
+- ### [countWords](./src/countWords.md)
 
-### Usage
+  Counts the number of words in a given string.
+
+## Usage
 
 To use these JavaScript tools in your project, follow these steps:
 
-1. Clone this repository to your local machine.
-2. Include the desired JavaScript files in your project.
-3. Use the functions as needed in your code.
+  1. Clone this repository to your local machine.
+  2. Include the desired JavaScript files in your project.
+  3. Use the functions as needed in your code.
 
 Feel free to explore each tool's documentation within the repository for specific usage examples.
 
@@ -113,13 +117,13 @@ Feel free to explore each tool's documentation within the repository for specifi
 
 We welcome contributions from the community! If you have a new tool to add or would like to improve an existing one, please follow these steps:
 
-1. Fork this repository.
-2. Create a new branch for your contribution.
-3. Implement your changes or add a new tool.
-4. Test thoroughly to ensure functionality.
-5. Submit a pull request with a clear description of your changes.
+  1. Fork this repository.
+  2. Create a new branch for your contribution.
+  3. Implement your changes or add a new tool.
+  4. Test thoroughly to ensure functionality.
+  5. Submit a pull request with a clear description of your changes.
 
-We will review your contribution and merge it if it aligns with the repository's goals.
+Your contribution will be reviewed and if it aligns with the repository's goals, it will be merged into the project.
 
 ## License
 
