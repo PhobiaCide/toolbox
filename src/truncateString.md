@@ -4,11 +4,9 @@
 
 Truncates a string to a specified maximum length and adds ellipses if necessary.
 
-### At A Glance
+### Code
 
 ![A screenshot of the titular code snippet](../snapshots/truncateString.png)
-
-### Code
 
 ```js
 const truncateString = (str, maxLength) =>

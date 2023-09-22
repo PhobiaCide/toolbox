@@ -4,11 +4,9 @@
 
 Calculates the age based on a given birth date.
 
-### At A Glance
-
-![A screenshot of the titular code snippet](../snapshots/calculateAge.png)
-
 ### Code
+
+![A screenshot of the titular code snippet in my development environment.](../snapshots/calculateAge.png)
 
 ```js
 const calculateAge = (birthDate) => {

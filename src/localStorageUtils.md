@@ -4,11 +4,9 @@
 
 An object containing utility functions to simplify interactions with the browser's localStorage.
 
-### At A Glance
+### Code
 
 ![A screenshot of the titular code snippet](../snapshots/localStorageUtils.png)
-
-### Code
 
 ```js
 const localStorageUtils = {

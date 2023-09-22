@@ -4,11 +4,9 @@
 
 Shuffles the elements of an array randomly.
 
-### At A Glance
+### Code
 
 ![A screenshot of the titular code snippet](../snapshots/shuffleArray.png)
-
-### Code
 
 ```js
 const shuffleArray = (array) => {

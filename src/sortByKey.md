@@ -4,11 +4,9 @@
 
 Sorts an array of objects based on the values of a specified key.
 
-### At A Glance
+### Code
 
 ![A screenshot of the titular code snippet](../snapshots/sortByKey.png)
-
-### Code
 
 ```js
 const sortByKey = (array, key) => {

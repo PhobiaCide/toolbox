@@ -4,11 +4,9 @@
 
 Groups an array of objects by a specified key, creating an object with grouped arrays as values.
 
-### At A Glance
+### Code
 
 ![A screenshot of the titular code snippet](../snapshots/groupByKey.png)
-
-### Code
 
 ```js
 const groupByKey = (array, key) =>

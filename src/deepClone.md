@@ -4,11 +4,9 @@
 
 Creates a deep copy of an object, including nested objects and arrays.
 
-### At A Glance
+### Code
 
 ![A screenshot of the titular code snippet](../snapshots/deepClone.png)
-
-### Code
 
 ```js
 const deepClone = (obj) => {

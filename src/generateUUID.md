@@ -4,11 +4,9 @@
 
 Generates a universally unique identifier (UUID).
 
-### At A Glance
+### Code
 
 ![A screenshot of the titular code snippet](../snapshots/generateUUID.png)
-
-### Code
 
 ```js
 const generateUUID = () =>

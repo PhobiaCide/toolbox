@@ -18,11 +18,9 @@ const debounce = (funct, delay) => {
 };
 ```
 
-### At A Glance
+### Code
 
 ![A screenshot of the titular code snippet](../snapshots/debounceResize.png)
-
-### Code
 
 ```js
 window.addEventListener("resize", debounce(myFunction));

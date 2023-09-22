@@ -4,11 +4,9 @@
 
 Checks if an object or array is empty.
 
-### At A Glance
+### Code
 
 ![A screenshot of the titular code snippet](../snapshots/isEmpty.png)
-
-### Code
 
 ```js
 const isEmpty = (obj) =>

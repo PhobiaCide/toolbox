@@ -4,11 +4,9 @@
 
 Formats a Date object into a string based on the specified format.
 
-### At A Glance
+### Code
 
 ![A screenshot of the titular code snippet](../snapshots/fetchJson.png)
-
-### Code
 
 ```js
 try {
