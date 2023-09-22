@@ -11,7 +11,7 @@ Creates a deep copy of an object, including nested objects and arrays.
 ### Code
 
 ```js
-function deepClone(obj) {
+const deepClone = (obj) => {
   if (typeof obj !== "object" || obj === null) {
     return obj;
   }
