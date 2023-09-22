@@ -6,6 +6,8 @@ Calculates the age based on a given birth date.
 
 ### Code
 
+<img src="../snapshots/calculateAge.png" style="box-sizing:border-box;border-radius:4px;outline-width:10px;outline-color:#113;outline-style:outset;outline-offset:-26px;">
+
 ![A screenshot of the titular code snippet in my development environment.](../snapshots/calculateAge.png)
 
 ```js
