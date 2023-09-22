@@ -11,11 +11,6 @@ Checks if an object or array is empty.
 ### Code
 
 ```js
-function isEmpty(obj) {
-  if (Array.isArray(obj)) {
-    return obj.length === 0;
-  } else {
-    return Object.keys(obj).length === 0;
-  }
-}
+const isEmpty = (obj) =>
+  Array.isArray(obj) ? obj.length === 0 : Object.keys(obj).length === 0;
 ```
