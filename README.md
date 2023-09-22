@@ -5,7 +5,6 @@ Welcome to the JavaScript Essential Tools repository! This collection of JavaScr
 ## Table of Contents
 
 - [JavaScript Essential Tools](#javascript-essential-tools)
-  - [Table of Contents](#table-of-contents)
   - [Tools Included](#tools-included)
   - [Usage](#usage)
   - [Contributing](#contributing)
