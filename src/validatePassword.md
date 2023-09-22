@@ -11,7 +11,7 @@ Validates if a password meets common security criteria.
 ### Code
 
 ```js
-function validatePassword(password) {
+const validatePassword = (password) => {
   // Check if password is at least 8 characters long
   if (password.length < 8) {
     return false;

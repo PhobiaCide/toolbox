@@ -32,7 +32,7 @@ Throttling is suitable for scenarios where you want to limit how often a functio
 ### Code
 
 ```js
-function throttle(mainFunction, delay) {
+const throttle = (mainFunction, delay) => {
   let timerFlag = null; // Variable to keep track of the timer
 
   // Returning a throttled version
