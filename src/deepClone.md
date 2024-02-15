@@ -1,12 +1,16 @@
 # `deepClone()`
 
+![A screenshot of the titular code snippet](../snapshots/deepClone.png)
+
 ## Overview
 
 Creates a deep copy of an object, including nested objects and arrays.
 
-### Code
+### Dependencies
 
-![A screenshot of the titular code snippet](../snapshots/deepClone.png)
+None
+
+### Code
 
 ```js
 const deepClone = (obj) => {

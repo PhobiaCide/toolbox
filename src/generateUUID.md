@@ -1,12 +1,16 @@
 # `generateUUID()`
 
+![A screenshot of the titular code snippet](../snapshots/generateUUID.png)
+
 ## Overview
 
 Generates a universally unique identifier (UUID).
 
-### Code
+### Dependencies
 
-![A screenshot of the titular code snippet](../snapshots/generateUUID.png)
+None
+
+### Code
 
 ```js
 const generateUUID = () =>

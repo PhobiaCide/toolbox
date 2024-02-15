@@ -4,9 +4,9 @@
 
 Validates if a password meets common security criteria.
 
-### Code
-
 ![A screenshot of the titular code snippet](../snapshots/validatePassword.png)
+
+### Code
 
 ```js
 const validatePassword = (password) => {

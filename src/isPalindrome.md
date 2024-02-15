@@ -1,12 +1,16 @@
 # `isPalindrome()`
 
+![A screenshot of the titular code snippet](../snapshots/isPalindrome.png)
+
 ## Overview
 
 Checks if a string is a palindrome.
 
-### Code
+### Dependencies
 
-![A screenshot of the titular code snippet](../snapshots/isPalindrome.png)
+None
+
+### Code
 
 ```js
 const isPalindrome = (str) => str === str.split("").reverse().join("");

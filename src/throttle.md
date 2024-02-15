@@ -1,6 +1,10 @@
 # `throttle()`
 
-## Limit frequency of function calls
+![A screenshot of the titular code snippet](../snapshots/throttle.png)
+
+## Overview
+
+Limit frequency of function calls
 
 ### What is Throttling?
 
@@ -25,9 +29,11 @@ Throttling is suitable for scenarios where you want to limit how often a functio
 - Updating or animating elements on the page when the user scrolls, resizes, or moves the mouse
 - Logging or tracking user actions or events when they occur frequently
 
-### Code
+### Dependencies
 
-![A screenshot of the titular code snippet](../snapshots/throttle.png)
+None
+
+### Code
 
 ```js
 const throttle = (mainFunction, delay) => {

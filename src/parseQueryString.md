@@ -1,12 +1,16 @@
 # `parseQueryString()`
 
+![A screenshot of the titular code snippet](../snapshots/parseQueryString.png)
+
 ## Overview
 
 Parses the query string parameters from a URL and returns them as an object."
 
-### Code
+### Dependencies
 
-![A screenshot of the titular code snippet](../snapshots/parseQueryString.png)
+None
+
+### Code
 
 ```js
 const parseQueryString = (url) => {

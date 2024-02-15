@@ -1,12 +1,16 @@
 # `sortByKey()`
 
+![A screenshot of the titular code snippet](../snapshots/sortByKey.png)
+
 ## Overview
 
 Sorts an array of objects based on the values of a specified key.
 
-### Code
+### Dependencies
 
-![A screenshot of the titular code snippet](../snapshots/sortByKey.png)
+None
+
+### Code
 
 ```js
 const sortByKey = (array, key) => {

@@ -1,12 +1,16 @@
 # `localStorageUtils()`
 
+![A screenshot of the titular code snippet](../snapshots/localStorageUtils.png)
+
 ## Overview
 
 An object containing utility functions to simplify interactions with the browser's localStorage.
 
-### Code
+### Dependencies
 
-![A screenshot of the titular code snippet](../snapshots/localStorageUtils.png)
+None
+
+### Code
 
 ```js
 const localStorageUtils = {

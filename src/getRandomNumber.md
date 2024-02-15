@@ -1,12 +1,16 @@
 # `getRandomNumber()`
 
+![A screenshot of the titular code snippet](../snapshots/getRandomNumber.png)
+
 ## Overview
 
 Generates a pseudo random number within a given range.
 
-### Code
+### Dependencies
 
-![A screenshot of the titular code snippet](../snapshots/getRandomNumber.png)
+None
+
+### Code
 
 ```js
 const getRandomNumber = (min, max) =>

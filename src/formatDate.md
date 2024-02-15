@@ -1,12 +1,16 @@
 # `formatDate()`
 
+![A screenshot of the titular code snippet](../snapshots/formatDate.png)
+
 ## Overview
 
 Formats a Date object into a string based on the specified format.
 
-### Code
+### Dependencies
 
-![A screenshot of the titular code snippet](../snapshots/formatDate.png)
+None
+
+### Code
 
 ```js
 const formatDate = (date, format) => {

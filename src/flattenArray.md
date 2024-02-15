@@ -1,12 +1,16 @@
 # `flattenArray()`
 
+![A screenshot of the titular code snippet](../snapshots/flattenArray.png)
+
 ## Overview
 
 Flattens a nested array into a single-level array.
 
-### Code
+### Dependencies
 
-![A screenshot of the titular code snippet](../snapshots/flattenArray.png)
+None
+
+### Code
 
 ```js
 const flattenArray = (arr) =>

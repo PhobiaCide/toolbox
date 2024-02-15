@@ -1,6 +1,8 @@
 # `debounce()`
 
-## Summary
+![A screenshot of the titular code snippet](../snapshots/debounce.png)
+
+## Overview
 
 Debouncing is a programming technique that helps to improve the performance of web applications by limiting the frequency of function calls. In this blog post, we will learn what debouncing is, why it is useful, and how to implement it in JavaScript with code examples.
 
@@ -14,9 +16,11 @@ For example, imagine we have a search box that shows suggestions as the user typ
 
 There are different ways to implement debouncing in JavaScript, but one common approach is to use a wrapper function that returns a new function that delays the execution of the original function. The wrapper function also keeps track of a timer variable that is used to clear or reset the delay whenever the new function is called.
 
-#### Code
+### Dependencies
 
-![A screenshot of the titular code snippet](../snapshots/debounce.png)
+None
+
+#### Code
 
 ```js
 const debounce = (mainFunction, delay) => {

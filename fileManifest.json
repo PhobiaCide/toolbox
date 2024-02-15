@@ -157,27 +157,27 @@
   {
     "name": "capitalizeWords",
     "description": "Converts the first letter of each word in a string to uppercase.",
-    "isIncluded": false
+    "isIncluded": true
   },
   {
     "name": "timeAgo",
     "description": "Converts a given date into a human-readable 'time ago' format (e.g., '2 hours ago').",
-    "isIncluded": false
+    "isIncluded": true
   },
   {
-    "name": "localStorageUtil.get",
+    "name": "localStorageUtil.getItem",
     "description": "Retrieves a value from the browser's localStorage based on a specified key.",
-    "isIncluded": false
+    "isIncluded": true
   },
   {
-    "name": "localStorageUtil.set",
+    "name": "localStorageUtil.setItem",
     "description": "Sets a value in the browser's localStorage with a specified key.",
-    "isIncluded": false
+    "isIncluded": true
   },
   {
-    "name": "localStorageUtil.remove",
+    "name": "localStorageUtil.removeItem",
     "description": "Removes a value from the browser's localStorage using a specified key.",
-    "isIncluded": false
+    "isIncluded": true
   },
   {
     "name": "detectMobileDevice",
@@ -198,5 +198,40 @@
     "name": "arrayChunk",
     "description": "Splits an array into chunks of a specified size.",
     "isIncluded": false
+  },
+  {
+    "name": "matchArrayElements",
+    "description": "Returns an array of common elements found in two arrays.",
+    "isIncluded": true
+  },
+  {
+    "name": "swapArrayElements",
+    "description": "Swaps the positions of two elements in an array.",
+    "isIncluded": true,
+    "code": "function swapArrayElements(arr, index1, index2) {\n  [arr[index1], arr[index2]] = [arr[index2], arr[index1]];\n}"
+  },
+  {
+    "name": "uniqueIdGenerator",
+    "description": "Generates a unique identifier based on a specified prefix and a counter.",
+    "isIncluded": true,
+    "code": "function uniqueIdGenerator(prefix = 'id') {\n  let counter = 0;\n  return () => `${prefix}_${counter++}`;\n}"
+  },
+  {
+    "name": "sumArray",
+    "description": "Calculates the sum of all elements in an array.",
+    "isIncluded": true,
+    "code": "function sumArray(arr) {\n  return arr.reduce((acc, val) => acc + val, 0);\n}"
+  },
+  {
+    "name": "averageArray",
+    "description": "Calculates the average value of elements in an array.",
+    "isIncluded": true,
+    "code": "function averageArray(arr) {\n  return sumArray(arr) / arr.length;\n}"
+  },
+  {
+    "name": "removeDuplicates",
+    "description": "Removes duplicate values from an array.",
+    "isIncluded": true,
+    "code": "function removeDuplicates(arr) {\n  return [...new Set(arr)];\n}"
   }
 ]

@@ -1,12 +1,16 @@
 # `groupByKey()`
 
+![A screenshot of the titular code snippet](../snapshots/groupByKey.png)
+
 ## Overview
 
 Groups an array of objects by a specified key, creating an object with grouped arrays as values.
 
-### Code
+### Dependencies
 
-![A screenshot of the titular code snippet](../snapshots/groupByKey.png)
+None
+
+### Code
 
 ```js
 const groupByKey = (array, key) =>

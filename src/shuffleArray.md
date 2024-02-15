@@ -1,12 +1,16 @@
 # `shuffleArray()`
 
+![A screenshot of the titular code snippet](../snapshots/shuffleArray.png)
+
 ## Overview
 
 Shuffles the elements of an array randomly.
 
-### Code
+### Dependencies
 
-![A screenshot of the titular code snippet](../snapshots/shuffleArray.png)
+None
+
+### Code
 
 ```js
 const shuffleArray = (array) => {

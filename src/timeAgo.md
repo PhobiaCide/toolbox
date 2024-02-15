@@ -1,6 +1,6 @@
-# `calculateAge()`
+# `timeAgo()`
 
-![A screenshot of the titular code snippet](../snapshots/calculateAge.png)
+<img src="../snapshots/calculateAge.png" style="background-color:transparent;box-sizing:content-box;border-radius:8vw;outline-width:2vw;outline-color:#113;outline-style:outset;outline-offset:-4vw;">
 
 ## Overview
 

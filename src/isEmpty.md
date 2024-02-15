@@ -1,12 +1,16 @@
 # `isEmpty()`
 
+![A screenshot of the titular code snippet](../snapshots/isEmpty.png)
+
 ## Overview
 
 Checks if an object or array is empty.
 
-### Code
+### Dependencies
 
-![A screenshot of the titular code snippet](../snapshots/isEmpty.png)
+None
+
+### Code
 
 ```js
 const isEmpty = (obj) =>
