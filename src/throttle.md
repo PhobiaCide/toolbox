@@ -72,8 +72,8 @@ const throttledFetchData = throttle(fetchData, 5000);
 window.addEventListener("scroll", throttledFetchData);
 ```
 
-In this example, we define a `throttle()` _function_ that takes a _callback_ and a _delay_ as **arguments**. The `throttle()` _function_ returns a **new** _function_ that **wraps** the _callback_ with a _logic_ that uses `setTimeout` to **create** a _timer_. The _timer_ ensures that the _callback_ is only called once within the _delay_ period. If the _returned_ _function_ is called again before the _timer_ expires, it does nothing.
+In this example, we define a `throttle()` function that takes a callback and a delay as arguments. The `throttle()` function returns a new function that wraps the callback with a logic that uses `setTimeout` to create a timer. The timer ensures that the callback is only called once within the delay period. If the returned function is called again before the timer expires, it does nothing.
 
-We then define a `fetchData()` _function_ that simulates an **API call** with a **random** _delay_. We use the `throttle()` _function_ to **create** a `throttledFetchData()` _function_ that has a _delay_ of 5000 _ms_. We add an event listener to the window scroll event that **calls** the `throttledFetchData()` function.
+We then define a `fetchData()` function that simulates an API call with a random delay. We use the `throttle()` function to create a `throttledFetchData()` function that has a delay of 5000 ms. We add an event listener to the window scroll event that calls the `throttledFetchData()` function.
 
-If you run this code and scroll the page, you will see that the fetchData function is only called once every 5 second, regardless of how fast or slow you scroll.
+If you run this code and scroll the page, you will see that the `fetchData` function is only called once every 5 seconds, regardless of how fast or slow you scroll.
