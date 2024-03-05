@@ -12,6 +12,11 @@ Welcome to the JavaScript Essential Tools repository! This collection of JavaScr
 
 ## Tools Included
 
+### File manifest
+
+[File manifest](./fileManifest.json)
+
+
 Click any of the snippet names below to be directed to detailed documentation for that snippet.
 
 - ### [`debounce()`](./src/debounce.md)
