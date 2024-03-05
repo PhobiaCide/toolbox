@@ -14,8 +14,11 @@ Welcome to the JavaScript Essential Tools repository! This collection of JavaScr
 
 ### File manifest
 
+the file manifest lists all functions svg describes their  function. 
+
 [File manifest](./fileManifest.json)
 
+## Function READMEs
 
 Click any of the snippet names below to be directed to detailed documentation for that snippet.
 
