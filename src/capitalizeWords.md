@@ -1,4 +1,4 @@
-# `capitalizeWorld()`
+# `capitalizeWords()`
 
 ![A screenshot of the titular code snippet](../snapshots/capitalizeWords.png)
 
